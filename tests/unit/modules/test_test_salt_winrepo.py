@@ -14,6 +14,6 @@ def configure_loader_modules():
     }
 
 
-def test_replace_this_this_with_something_meaningful():
-    echo_str = "Echoed!"
-    assert test_salt_winrepo_module.example_function(echo_str) == echo_str
+def test_read_value_exists_and_returns_vdata_none():
+    assert callable(test_salt_winrepo_module.read_value)
+    assert test_salt_winrepo_module.read_value("Hive", "Key", "VName")["vdata"] is None
