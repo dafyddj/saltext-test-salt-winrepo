@@ -4,6 +4,13 @@ This project uses [Semantic Versioning](https://semver.org/) - MAJOR.MINOR.PATCH
 
 # Changelog
 
+## 0.1.1 (2025-04-24)
+
+
+### Fixed
+
+- Fixed API token for Test PyPI
+
 ## v0.1.0 (2025-04-23)
 
 
